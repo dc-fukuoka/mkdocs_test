@@ -1,0 +1,12 @@
+test of mkdocs.
+----
+
+$ pip3 install --user mkdocs-material python-markdown-math
+$ mkdocs new test
+$ cd test
+$ vi mkdocs.yml
+$ vi docs/index.md
+$ vi docs/math.md
+$ mkdocs build
+$ mkdocs serve
+$ firefox -> access localhost:8000

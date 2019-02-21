@@ -1,0 +1,15 @@
+site_name: test
+
+docs_dir: 'docs'
+
+theme: 'material'
+
+nav:
+    - 'math':  'math.md'
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: true
+
+extra_javascript: 
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
